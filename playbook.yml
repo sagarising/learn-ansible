@@ -1,0 +1,8 @@
+- hosts: localhost  
+
+  tasks:
+    - name: "copy Readme.md from /tmp direcotry to current dir"
+      copy:
+        src: /tmp/README.md
+        dest: ./README.md
+
