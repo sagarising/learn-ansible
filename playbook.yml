@@ -4,5 +4,5 @@
     - name: "copy Readme.md from /tmp direcotry to current dir"
       copy:
         src: /tmp/README.md
-        dest: ./README.md
+        dest: ./dest/README.md
 
